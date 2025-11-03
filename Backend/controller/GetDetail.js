@@ -15,17 +15,7 @@ const register = async (req, res) => {
       return res.status(400).json({ message: "Email already exists" });
     }
 
-    const newUser = new admin({
-      name,
-      email,
-      phone,
-      
-      checkin,
-      checkout,
-      adult,
-      child
-    });
-
+   
    
 
     
