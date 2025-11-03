@@ -28,7 +28,7 @@ export default function PopupForm() {
         checkout: formdata.checkout ? formdata.checkout.toISOString() : ''
       };
 
-      const res = await axios.post("https://ootytravelsbackend.vercel.app/details/add", submitData);
+      const res = await axios.post("https://ootytravels.onrender.com/details/add", submitData);
       alert(res.data.message || "Details added successfully!");
       navigate('/home');
     } catch (error) {
