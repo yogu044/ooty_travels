@@ -1,7 +1,7 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import PopupForm from "./componenets/popupform";  
 import Home from "./Pages/Home";
-import Footer from "./componenets/footer.jsx";
+import Footer from "./components/footer.jsx";
 import About from "./Pages/About.jsx";
 import Gallery from "./Pages/Gallery.jsx";
 import Navbar from "./componenets/Navbar.jsx";
