@@ -12,7 +12,7 @@ const register = async (req, res) => {
 
     
     const transporter = nodemailer.createTransport({
-      service: 'gmail', 
+      host: 'smtp.gmail.com', 
       auth: {
         user: process.env.EMAIL_USER, 
         pass: process.env.EMAIL_PASS  
@@ -53,7 +53,7 @@ const register = async (req, res) => {
    
     await transporter.sendMail(mailOptions);
 
-    return res.status(201).json({ message: "Data added and email sent successfully", user: newUser });
+    return res.status(201).json({ message: "Data added and email sent successfully"});
   } catch (error) {
   console.error("Contact form error:", error);
 

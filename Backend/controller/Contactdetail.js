@@ -13,7 +13,7 @@ const submitContactForm = async (req, res) => {
 
     // Create mail transporter using Gmail
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      host: "smtp.gmail.com",
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
@@ -40,9 +40,7 @@ const submitContactForm = async (req, res) => {
     // Send email
     await transporter.sendMail(mailOptions);
 
-    // Optional: Save contact to database
-    const newContact = new Contact({ name, email, subject, message });
-    await newContact.save();
+   
 
     // Respond to client
     res.status(200).json({ message: "Contact form submitted successfully" });
