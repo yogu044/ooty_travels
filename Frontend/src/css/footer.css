@@ -135,3 +135,23 @@
   font-size: 0.85rem;
   color: #9ca3af;
 }
+.footer-legal {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.legal-link {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.legal-link:hover {
+  color: #25D366;
+  text-decoration: underline;
+}
+
+.legal-separator {
+  margin: 0 10px;
+}

@@ -3,6 +3,10 @@ import { Leaf, TreePine, Recycle, Globe,ArrowRight } from 'lucide-react'
 import "../css/home.css"  // Import CSS
 import { useNavigate } from 'react-router-dom'
 import teagarden from '../../public/pictures/tea_garden.jpg'
+import back from "../../public/image/home_back.jpeg";
+import boatlake from "../../public/image/home_boat_lake.avif";
+import botanical from "../../public/image/home-botanical-garden.jpg";
+
 
 
 export default function Home() {
@@ -39,12 +43,12 @@ export default function Home() {
     {
         title:'Ooty Lake',
         description: 'Enjoy boating and scenic walks around the beautiful artificial lake',
-        image:'https://media2.thrillophilia.com/images/photos/000/148/744/original/1552983720_6.jpg'
+        image:boatlake
     },
     {
         title:'Botanical Gardens',
         description: 'Explore rare plants and flowers in the Government Botanical Garden',
-        image:'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a3/0a/4e/beautiful-botanical-garden.jpg'
+        image:botanical
     }
   ];
   const feedbacks=[
@@ -70,7 +74,7 @@ export default function Home() {
         <div
             className="hero-bg"
             style={{
-                backgroundImage: 'url(https://images.pexels.com/photos/9411139/pexels-photo-9411139.jpeg)'
+                backgroundImage:`url(${back})`
             }}
         ></div>
 
@@ -145,6 +149,7 @@ export default function Home() {
                 ))}
             </div>
         </section>
+        {/* <WhatsAppButton/> */}
 
     </div>
   )

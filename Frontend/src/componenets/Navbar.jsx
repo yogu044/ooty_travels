@@ -43,8 +43,8 @@ export default function Navbar() {
         <NavLink to="/activity" className="nav-link" onClick={() => setMenuOpen(false)}>
           Activity
         </NavLink>
-        <NavLink to="/gallery" className="nav-link" onClick={() => setMenuOpen(false)}>
-          Gallery
+        <NavLink to="/about" className="nav-link" onClick={() => setMenuOpen(false)}>
+          About Us
         </NavLink>
         <NavLink to="/contact" className="nav-link" onClick={() => setMenuOpen(false)}>
           Contact

@@ -6,11 +6,7 @@ import "../css/gallery.css";
 export default function Gallery() {
   const [data, setData] = useState([]);
 
-  useEffect(() => {
-    axios.get("https://picsum.photos/v2/list?limit=30")
-      .then((res) => setData(res.data))
-      .catch((err) => console.log(err));
-  }, []);
+  
 
   const breakpointColumnsObj = {
     default: 4,
@@ -26,17 +22,7 @@ export default function Gallery() {
         <p>The pictures of Customers</p>
       </div>
 
-      <Masonry
-        breakpointCols={breakpointColumnsObj}
-        className="gallery-grid"
-        columnClassName="gallery-grid_column"
-      >
-        {data.map((f) => (
-          <div className="gallery-item" key={f.id}>
-            <img src={f.download_url} alt={f.author} />
-          </div>
-        ))}
-      </Masonry>
+      
     </div>
   );
 }

@@ -2,76 +2,76 @@
   {
     "title": "Botanical Garden",
     "description": "Lush gardens spread over 55 acres with rare plants and a famous fossil tree trunk.",
-    "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a3/0a/4e/beautiful-botanical-garden.jpg"
+    "src": "/image/home-botanical-garden.jpg"
   },
   {
     "title": "Rose Garden",
     "description": "Colorful garden featuring thousands of rose varieties, perfect for a stroll and photo ops.",
-    "src": "https://as1.ftcdn.net/v2/jpg/04/10/13/22/1000_F_410132299_FcexXOF2dC0j73CGr4lm9jY9oNhNEpsK.jpg"
+    "src": "/image/a-rosegarden.jpg"
   },
   {
     "title": "Boat House",
     "description": "Enjoy boating on Ooty Lake with pedal boats and rowboats in a tranquil setting.",
-    "src": "https://res.cloudinary.com/purnesh/image/upload/w_1080,f_auto/land-of-joy.jpg"
+    "src": "/image/a-boathouse.webp"
   },
   {
     "title": "Pykara Lake and Waterfalls",
     "description": "Scenic lake and waterfalls ideal for picnics, boating, and nature photography.",
-    "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/9b/41/39/fb-img-1536802621189.jpg"
+    "src": "/image/a-payakaralake.jpg"
   },
   {
     "title": "Avalanche Lake",
     "description": "Peaceful lake surrounded by pristine forests, great for camping and trekking.",
-    "src": "https://ootytours.in/images/tours/1-day-ooty-avalanche-tour/one-day-ooty-avalanche-local-sightseeing-tour-package-avalanche-lake-ooty.jpg"
+    "src": "/image/a-alvanchelake.jpg"
   },
   {
     "title": "Nilgiri Mountain Railway (Toy Train)",
     "description": "Heritage train ride offering stunning views through Nilgiri hills between Ooty and Mettupalayam.",
-    "src": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/16/19/4e/c2.jpg"
+    "src": "/image/a-toytrain.jpg"
   },
   {
     "title": "Doddabetta Peak",
     "description": "The highest peak in the Nilgiris offering panoramic views of the hill station and valleys.",
-    "src": "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/2024/04/Doddabetta-Cover.jpg"
+    "src": "/image/a-Doddabetta.jpg"
   },
   {
     "title": "St. Stephen's Church",
     "description": "Historic Gothic church dating back to the British colonial period.",
-    "src": "https://ootytourism.co.in/images/tourist-places/st-stephens-church-ooty/st-stephens-church-ooty-tourism-entry-ticket-price.jpg"
+    "src": "/image/a-st-stephens-church.jpg"
   },
   {
     "title": "Toda Temple",
     "description": "Cultural site representing the Toda tribe, indigenous to the Nilgiri hills.",
-    "src": "https://i0.wp.com/azureskyfollows.com/wp-content/uploads/2023/04/A-Toda-Temple-abobe-Ooty-Botanical-gardens.jpeg"
+    "src": "/image/a-Toda-Temple.webp"
   },
   {
     "title": "Tea Factory and Tea Museum",
     "description": "Tour the tea factory and learn about the Nilgiri tea-making process and history.",
-    "src": "https://media1.thrillophilia.com/filestore/l1zlxn1eq51fwzglfymtxdum4ivk_tea-museum-tea-factory-ooty-1680.jpg"
+    "src": "/image/a-teafactory.webp"
   },
   {
     "title": "Dolphin's Nose Viewpoint",
     "description": "Breathtaking cliff-side viewpoint overlooking the Catherine Falls and valley.",
-    "src": "https://twintreekotagiri.com/wp-content/uploads/2023/08/view-from-dolphins-nose.jpeg"
+    "src": "/image/a-dolphins.webp"
   },
   {
     "title": "Emerald Lake",
     "description": "A calm lake surrounded by rolling hills and tea gardens, perfect for relaxation.",
-    "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/70/23/3c/img-20180129-151624-01.jpg?w=900&h=-1&s=1"
+    "src": "/image/a-emarland.jpg"
   },
   {
     "title": "Stone House",
     "description": "The oldest bungalow in Ooty built in 1822 with colonial architecture.",
-    "src": "https://traveltoooty.com/wp-content/uploads/2023/07/stone-house.jpeg"
+    "src": "/image/a-stone.webp"
   },
   {
     "title": "Tiger Hill",
     "description": "Popular trekking destination known for sunrise views over the Nilgiris.",
-    "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/d9/96/6d/caption.jpg"
+    "src": "/image/a-tigerpark.jpg"
   },
   {
     "title": "Sims Park, Coonoor ",
     "description": "Sim's Park is the venue for the annual vegetable and fruit show.",
-    "src": "https://static2.tripoto.com/media/filter/tst/img/439127/TripDocument/1510674930_apn_2806.jpg"
+    "src": "/image/a-simsparks.jpg"
   }
 ]

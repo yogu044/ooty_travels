@@ -7,6 +7,9 @@ import Gallery from "./Pages/Gallery.jsx";
 import Navbar from "./componenets/Navbar.jsx";
 import Trips from "./Pages/Trips.jsx";
 import Contact from "./Pages/Contact.jsx";
+import WhatsAppButton from "./componenets/Whatsapp.jsx";
+import TermsAndConditions from "./componenets/TermsAndConditions.jsx";
+import PrivacyPolicy from "./componenets/PrivacyPolicy.jsx";
 
 function App() {
   const location = useLocation();
@@ -17,6 +20,7 @@ function App() {
   return (
     <>
       {!hideLayout && <Navbar />}
+      <WhatsAppButton/>
       <Routes>
         <Route path="/" element={<PopupForm />} />
         <Route path="/home" element={<Home />} />
@@ -25,6 +29,8 @@ function App() {
         <Route path="/dataform" element={<PopupForm />} /> 
         <Route path="/activity" element={<Trips />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/terms" element={<TermsAndConditions />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
       {!hideLayout && <Footer />}
     </>

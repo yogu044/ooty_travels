@@ -5,6 +5,7 @@ import image from "../assets/logo.png"
 import { useNavigate } from 'react-router-dom';
 
 
+
 export default function Footer() {
   const navigate=useNavigate();
   return (
@@ -71,8 +72,18 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="footer-bottom">
-          <p>© 2025 EcoTravel. All rights reserved.</p>
+          <p>© 2025 OotyTours. All rights reserved.</p>
         </div>
+        <div className="footer-legal">
+          <span onClick={() => navigate('/terms')} className="legal-link">
+            Terms & Conditions
+          </span>
+          <span className="legal-separator">|</span>
+          <span onClick={() => navigate('/privacy')} className="legal-link">
+            Privacy Policy
+          </span>
+        </div>
+
       </div>
     </footer>
   );
